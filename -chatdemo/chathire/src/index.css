@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.pb100{
+  padding-bottom: 100px;
+}
+.bgf{
+  background: #fff;
+  opacity: 1;
+}
+.zindex9{
+  z-index: 9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.error-msg{
+  color:red;
+  padding: 10px;
+}
+
+.an-tab-bar{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.an-navbar,fixed-header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+#tab-bar.demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height: 40px;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}
+.mt10{
+  margin-top: 10px;
+}
+
+/*用户中心页*/
+.result-example .spe {
+  width: 60px;
+  height: 60px;
+}
+.sub-title {
+  color: #888;
+  font-size: 14px;
+  padding: 30px 0 18px 0;
+  margin-left: 15px;
+}
+
+/*聊天信息页聊天框左右显示*/
+#chat-page .chat-me .am-list-extra{
+  flex-basis:auto;
+}
+#chat-page .chat-me .am-list-content{
+  padding-right: 15px;
+  text-align: right;
+}
+#chat-page .am-grid-icon{
+  display: none;
+}
+#chat-page .am-grid-text{
+  margin-top: 0;
+}
+.stick-footer{
+  z-index:10;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}

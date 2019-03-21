@@ -1,0 +1,43 @@
+{
+  "name": "chathire",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.3.0",
+    "antd-mobile": "^2.2.9",
+    "body-parser": "^1.18.3",
+    "browser-cookies": "^1.2.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-redux": "^6.0.1",
+    "react-scripts": "2.1.8",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0",
+    "utility": "^1.15.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "proxy": "http://localhost:9000"
+}
